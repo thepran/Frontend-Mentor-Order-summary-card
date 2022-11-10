@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -10,7 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
-
 
 ## Overview
 
@@ -24,12 +23,10 @@ Users should be able to:
 
 ![Screenshot](screenshot/screenshot.png)
 
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [https://github.com/thepran/Frontend-Mentor-Order-summary-card](https://github.com/thepran/Frontend-Mentor-Order-summary-card)
+- Live Site URL: [https://thepran-order-summary.netlify.app/](https://thepran-order-summary.netlify.app/)
 
 ### Built with
 
@@ -38,13 +35,9 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-
-
-
 ## Author
 
 - Frontend Mentor - [@thepran](https://www.frontendmentor.io/profile/thepran)
 - GitHub - [@thepran](https://github.com/thepran)
 - Twitter - [@pranydotin](https://www.twitter.com/pranydotin)
 - Email - negipranaysingh@gmail.com
-
