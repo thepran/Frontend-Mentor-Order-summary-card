@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 10px;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  margin-top: 10rem;
+  max-width: 100%;
+  width: 400px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header-image img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+}
+.order-summary h1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.order-summary p {
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+}
+.plan {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  font-size: 13px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+}
+.plan > .plan-detail {
+  text-align: left;
+}
+.plan h3 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.plan > a {
+  position: absolute;
+  right: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
+}
+button.payment {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+}
+button.cancel {
+  color: hsl(224, 23%, 55%);
+}
+button:hover {
+  background-color: hsl(246, 14%, 58%);
+  color: #fff;
+}
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 582px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+}
